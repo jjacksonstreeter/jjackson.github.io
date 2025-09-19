@@ -201,3 +201,17 @@ header h3 {
   font-size: 14px;
   color: var(--muted);
 }
+/* About Me photos */
+.profile-photo {
+  display: block;
+  margin: 30px auto;
+  max-width: 60%;
+  border-radius: var(--radius);
+  opacity: 0.85;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+  transition: opacity 0.3s ease;
+}
+
+.profile-photo:hover {
+  opacity: 1;
+}
